@@ -1,0 +1,8 @@
+---
+- name: new proj
+  hosts: all
+  tasks: 
+  - name: adding user
+    user:
+     name: monkey
+     state: present
